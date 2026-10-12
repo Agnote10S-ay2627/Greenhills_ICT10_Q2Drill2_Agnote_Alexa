@@ -1,0 +1,88 @@
+body {
+    background-color: #f4f1e8;
+    font-family: "Gill Sans MT", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #23395d;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* Form container */
+form.container {
+    max-width: 450px;
+    background-color: beige !important;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #b8c0cc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+    border-color: #23395d;
+    box-shadow: 0 0 5px rgba(35, 57, 93, 0.3);
+}
+
+/* Search button */
+input[type="button"] {
+    background-color: #23395d;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Search button hover effect */
+input[type="button"]:hover {
+    background-color: #162640;
+}
+
+/* Result section */
+#result {
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    color: #23395d;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 28px;
+        margin: 30px 15px;
+    }
+
+    form.container {
+        width: 90%;
+    }
+
+    #result {
+        width: 90%;
+    }
+}
